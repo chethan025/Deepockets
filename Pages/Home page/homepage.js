@@ -1,7 +1,7 @@
 //Home Page js
 
 
-let images = ['C:/Users/admin/Web/Practice/Deepockets/Resoures/Home/Layer.png', 'C:/Users/admin/Web/Practice/Deepockets/Resoures/Home/Ellipse.png','C:/Users/admin/Web/Practice/Deepockets/Resoures/Home/Layer.png'];
+let images = ['https://chethan025.github.io/Deepockets/Resoures/Home/Layer.png', 'https://chethan025.github.io/Deepockets/Resoures/Home/Ellipse.png','https://chethan025.github.io/Deepockets/Resoures/Home/Layer.png'];
 
 let index = 0;
 const imgElement = document.querySelector('.pp');
