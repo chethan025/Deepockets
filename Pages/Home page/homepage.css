@@ -1,5 +1,4 @@
 /* Home Page css */
-@media only screen and (min-width: 768px){
 body{
     background:  linear-gradient(113.6deg, #A939A6 -2.2%, #6A1A7A 116.26%);
     background-repeat: no-repeat;
@@ -237,8 +236,8 @@ button.rn:hover{
 .gb:hover{
     background: #411573 !important;
 }
-}
-@media only screen and (min-width: 600px){
+
+@media only screen and (max-width: 600px){
     
     img.vso{
         height: 10vh;
