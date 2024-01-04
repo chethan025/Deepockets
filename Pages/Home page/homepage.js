@@ -16,3 +16,39 @@ function change() {
 window.onload = function () {
     setInterval(change, 5000);
 };
+
+
+
+
+
+class modal{
+    constructor(){
+        this.mdl=document.querySelector(".btncht")
+        this.cgl=document.querySelector(".opn")
+    }
+
+    open(){
+        this.mdl.style.display='block'
+        // this.mdl.style.transition='ease-in-out 0.5s'
+        this.cgl.style.display='none'
+    }
+
+    close(){
+        this.mdl.style.display='none'
+        this.cgl.style.display='block'
+
+    }
+}
+
+var opnbtn=document.querySelector(".opn")
+var clsbtn=document.querySelector(".cls")
+var mdl=new modal()
+
+
+opnbtn.addEventListener('click',function(event){
+    mdl.open()
+})
+
+clsbtn.addEventListener('click',function(event){
+    mdl.close()
+})
