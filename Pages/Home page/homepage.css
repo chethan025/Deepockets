@@ -237,7 +237,7 @@ button.rn:hover{
     background: #411573 !important;
 }
 
-@media only screen and (min-width: 950px){
+@media only screen and (min-width: 600px){
     
     img.vso{
         height: 5vh;
