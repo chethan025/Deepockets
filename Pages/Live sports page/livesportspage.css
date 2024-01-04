@@ -10,47 +10,53 @@ body{
     
 
 }
+
 div.navigation{
-    position: relative;
     display: flex;
     width: 100%;
-    height: fit-content;
-    
-    top: 15px;
-
+    height: max-content;
+    margin: 5rem 0;
 }
-
 img.vso{
-    width: 85px;
-    height: 100px;
-    position: absolute;
-    left: 26px;
-}
 
+    height: 15.6vh;
+    margin: 0 0.1rem 0 2rem;
+}
+div.logoo{
+    width: max-content;
+    height: max-content;
+    align-self: center;
+    margin: 1.8rem 0 0 0;
+}
 h1.hh{
     position: relative;
-    top: 10px;
+    margin: 0;
     color: #411573;
-    /* font-weight: bold; */
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
-    line-height: 46px;
-    text-align: center;
-    left: 112px;
+    font-size: 1.5rem;
+    display: flex;
+    text-align:end;
+    align-items: end;
+    align-self: flex-end;
+    padding: -1vw;
+    
 }
-
 p.hp{
-    position: absolute;
+    position: relative;
     color: #E9B61B;
     font-weight: bold;
     font-family: "Montserrat";
-    top: 49px;
-    left: 126px;
+    margin: 0;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    font-size: 1rem;
+    display: flex;
+    text-align:center;
+    align-items: end;
+    align-self: flex-end;
+    
 }
 
 div.btn{
