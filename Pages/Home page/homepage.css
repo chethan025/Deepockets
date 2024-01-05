@@ -244,6 +244,8 @@ button.rn:hover{
         margin: 0 0.1rem 0 1rem;
 
     }
+    div.loggoo{
+        margin: 1rem 0 0 0;
     h1.hh{
         font-size: 1.5rem;
 
@@ -273,7 +275,7 @@ button.rn:hover{
         width: 60%;
     }
     h1.gt{
-        font-size: 8rem;
+        font-size: 6rem;
     }
     p.wo{
         font-size: 2.8vw;
@@ -281,7 +283,7 @@ button.rn:hover{
     }
     button.rn{
         width: 40%;
-        font-size: 2.2rem;   
+        font-size: 1.2rem;   
     }
 
 }
