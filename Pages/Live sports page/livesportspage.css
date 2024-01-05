@@ -214,6 +214,33 @@ div.tt{
 }
 
 
+.btny{
+    text-align: right;
+}
+.btnclg{
+    display: none;
+    position: absolute;
+    right: 1vh;
+    padding: 0.5rem;
+    transition: all ease-in-out 0.3s;
+}
+.btncht{
+    background: #FFD601;
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    display: none;
+    transition: ease-in-out 0.3s;
+}
+.btnhju{
+    position: absolute;
+    background: #FFD601;
+    width:100%;
+    z-index: 1000;
+    height: 100vh;
+}
+
+
 @media screen and (max-width: 600px){
     
     img.vso{
